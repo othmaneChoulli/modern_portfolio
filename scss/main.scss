@@ -134,7 +134,7 @@ main {
 // Button Styles
 .btn {
   display: block;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem s1rem;
   border: 0;
   margin-bottom: 0.3rem;
   &:hover {
@@ -151,7 +151,7 @@ main {
 
 .btn-light {
   @extend .btn;
-  background: darken($primary-color, 50);
+  background: lighten($primary-color, 50);
   color: #333;
 }
 
